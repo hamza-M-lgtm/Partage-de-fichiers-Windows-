@@ -47,7 +47,23 @@
 
 ## 6. Liste des partages avec PowerShell
 
+**Get-SmbShare**
 ![Image](https://github.com/user-attachments/assets/75aa8ab8-d088-40de-b82b-d4a833e86b8e)
 
+
+## 7. Sur un poste client Windows 10, configure un lecteur réseau pointant vers ce partage via PowerShell**
+
 ```powershell
-Get-SmbShare
+New-PSDrive -Name "Z" -PSProvider FileSystem -Root "\\nom_serveur\Documents_Entreprise" -Persist
+
+```
+
+
+## 8. Teste 
+
+Vérifier  l'accès depuis le poste client avec différents comptes utilisateurs bour voir si les autorisations fonctionnent 
+
+
+
+
+
