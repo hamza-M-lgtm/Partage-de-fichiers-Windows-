@@ -39,10 +39,15 @@
 1. Faites un clic droit sur le dossier "RH" et sélectionnez "Propriétés".
 2. Allez dans l'onglet "Sécurité" et cliquez sur "Modifier".
 3. Ajoutez le groupe "RH" avec les permissions "Lecture/Écriture".
-4. Répétez les étapes ci-dessus pour le dossier "Comptabilité" avec le groupe "Comptabilité".
-5. Pour le dossier "Direction", ajoutez le groupe "Direction" avec les permissions "Lecture/Écriture".
-6. Pour le dossier "Documents_Entreprise", ajoutez "Tout le monde" avec les permissions "Lecture seule".
+4. ![Image](https://github.com/user-attachments/assets/e5e72c22-3de8-4be7-bd2d-a3e2dbb703a7)
+5. Répétez les étapes ci-dessus pour le dossier "Comptabilité" avec le groupe "Comptabilité".
+6. ![Image](https://github.com/user-attachments/assets/40fca992-3703-4da6-b7c6-1ee95fc93175)
+7. Pour le dossier "Direction", ajoutez le groupe "Direction" avec les permissions "Lecture/Écriture".
+8. Pour le dossier "Documents_Entreprise", ajoutez "Tout le monde" avec les permissions "Lecture seule".
 
 ## 6. Liste des partages avec PowerShell
+
+![Image](https://github.com/user-attachments/assets/75aa8ab8-d088-40de-b82b-d4a833e86b8e)
+
 ```powershell
 Get-SmbShare
